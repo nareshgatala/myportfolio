@@ -1,6 +1,6 @@
 
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/NavBar.jsx';
 import Hero from './sections/Hero';
 import About from './sections/About';
 import Skills from './sections/Skills';
@@ -10,7 +10,6 @@ import Footer from './components/Footer';
 import useScrollColor from './utils/hooks/useScrollColor';
 import SectionIndicator from './components/SectionIndicator';
 import Contact from './sections/Contact';
-import TodoList from './components/TodoList';
 
 export default function App() {
 
