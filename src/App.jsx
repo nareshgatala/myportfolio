@@ -32,9 +32,6 @@ const bgColor = useScrollColor(sectionIds, sectionColors);
     <div className={`${bgColor} transition-colors duration-500`}>
       
       <Navbar />
-
-      <TodoList />
-
       <SectionIndicator />
       <Hero />
       <About />
