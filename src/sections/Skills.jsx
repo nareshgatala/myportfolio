@@ -58,7 +58,7 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section className="py-20 bg-indigo-50 dark:bg-slate-800 transition-colors" id="skills">
+    <section className="py-20 bg-indigo-50 dark:bg-slate-800 dark:text-slate-50 transition-colors" id="skills">
 
     <AnimatedSection>
         <Container>
@@ -68,7 +68,7 @@ export default function Skills() {
         <div className="grid gap-10">
           {skillGroups.map(group => (
             <div key={group.title}>
-              <h3 className="font-semibold text-slate-900 mb-4">
+              <h3 className="font-semibold dark:text-slate-50 text-slate-900 mb-4">
                 {group.title}
               </h3>
 

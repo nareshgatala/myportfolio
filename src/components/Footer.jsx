@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="footer py-20 footer-horizontal footer-center bg-base-200 text-base-content rounded p-10 bg-slate-900 text-slate-100">
+    <footer className="footer py-20 footer-horizontal footer-center bg-base-200 text-base-content rounded p-10 bg-slate-800 text-slate-100">
         <div className="max-w-6xl mx-auto px-6 text-sm text-slate-500">
             <nav className="grid grid-flow-col gap-4">
                 <a className="link link-hover">About us</a>

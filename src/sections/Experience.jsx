@@ -6,7 +6,7 @@ import SectionHeader from "../components/SectionHeader";
 
 export default function Experience() {
   return (
-    <section className="py-20 bg-slate-100 dark:bg-slate-850 transition-colors" id="experience">
+    <section className="py-20 bg-slate-100  dark:bg-slate-900 transition-colors" id="experience">
 
         <AnimatedSection>
             <Container>
@@ -15,13 +15,13 @@ export default function Experience() {
 
         <div className="space-y-12">
           <div>
-            <h3 className="font-bold text-slate-900">
+            <h3 className="font-bold text-slate-900 dark:text-slate-100">
               Lead Frontend Engineer — Natsoft Corporation
             </h3>
-            <p className="text-sm text-slate-500 mb-3">
+            <p className="text-sm text-slate-500 dark:text-slate-100 mb-3">
               New Jersey, USA | Apr 2025 – Present
             </p>
-            <ul className="list-disc pl-5 text-slate-600 space-y-2">
+            <ul className="list-disc pl-5 text-slate-600 dark:text-slate-300 space-y-2">
               <li>Design and develop enterprise-level React applications with modern frontend architecture.</li>
               <li>Build and optimize applications using Next.js, NodeJS, and component-driven development.</li>
               <li>Implement SSR and CSR strategies and optimize web vitals.</li>
@@ -30,13 +30,13 @@ export default function Experience() {
           </div>
 
           <div>
-            <h3 className="font-bold text-slate-900">
+            <h3 className="font-bold text-slate-900 dark:text-slate-100">
               Frontend Engineering Lead (Manager) — Victoria University
             </h3>
-            <p className="text-sm text-slate-500 mb-3">
+            <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">
               Melbourne, Australia | Jul 2023 – Mar 2025
             </p>
-            <ul className="list-disc pl-5 text-slate-600 space-y-2">
+            <ul className="list-disc pl-5 text-slate-600 dark:text-slate-300 space-y-2">
               <li>Led scalable React-based platforms and frontend architecture standards.</li>
               <li>Defined reusable component libraries and performance best practices.</li>
               <li>Mentored developers and led code/design reviews.</li>
@@ -45,13 +45,13 @@ export default function Experience() {
           </div>
 
           <div>
-            <h3 className="font-bold text-slate-900">
+            <h3 className="font-bold text-slate-900 dark:text-slate-100">
               Front End Lead — RMIT University
             </h3>
-            <p className="text-sm text-slate-500 mb-3">
+            <p className="text-sm text-slate-500 dark:text-slate-300 mb-3">
               Melbourne, Australia | Sep 2021 – Jul 2023
             </p>
-            <ul className="list-disc pl-5 text-slate-600 space-y-2">
+            <ul className="list-disc pl-5 text-slate-600 dark:text-slate-300 space-y-2">
               <li>Built responsive React applications using hooks and reusable components.</li>
               <li>Integrated NodeJS REST APIs and implemented Jest unit testing.</li>
               <li>Optimized performance and cross-browser compatibility.</li>
@@ -59,13 +59,13 @@ export default function Experience() {
           </div>
 
           <div>
-            <h3 className="font-bold text-slate-900">
+            <h3 className="font-bold text-slate-900 dark:text-slate-100">
               AEM Technical Lead / Front-End Lead — Capgemini Consulting
             </h3>
-            <p className="text-sm text-slate-500 mb-3">
+            <p className="text-sm text-slate-500 mb-3 dark:text-slate-300">
               Melbourne, Australia | Jun 2016 – Sep 2021
             </p>
-            <ul className="list-disc pl-5 text-slate-600 space-y-2">
+            <ul className="list-disc pl-5 text-slate-600 space-y-2 dark:text-slate-300">
              <li>Develop front end and Backend AEM components using HTML5, CSS and JQuery/Java Script by Agile methodologies working in sprints for HIGHER EDUCATION INSTITUTE.</li>
              <li>Integrating the frontend HTML with components into AEM using TOUCH-UI dialogs and templates of AEM 6.1</li>
              <li>Collaborated with DevOps and backend teams on Dispatcher configurations, including cache rules, filters, and invalidation strategies to support UI performance.</li> 

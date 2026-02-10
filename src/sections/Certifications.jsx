@@ -14,7 +14,7 @@ export default function Certifications() {
       <div className="max-w-6xl mx-auto px-6">
          <SectionHeader icon={CheckBadgeIcon} title="Certifications" />
 
-        <ul className="space-y-3 text-slate-600">
+        <ul className="space-y-3 text-slate-600 dark:text-slate-300">
 
           <li>Adobe Certified Expert – AEM Developer</li>
           <li>Adobe Certified Expert – AEM  Business Practitioner</li>

@@ -11,7 +11,7 @@ export default function About() {
       <Container>
         <SectionHeader icon={UserIcon} title="About Me" />
 
-        <p className="max-w-4xl text-slate-600 leading-relaxed">
+        <p className="max-w-4xl dark:text-slate-50 leading-relaxed">
           I am a Lead Frontend Engineer and Frontend Engineering Manager with
           extensive experience designing, building, and leading delivery of
           enterprise-scale web applications. I specialize in modern React
