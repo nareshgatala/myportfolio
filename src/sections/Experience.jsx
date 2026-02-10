@@ -16,7 +16,7 @@ export default function Experience() {
         <div className="space-y-12">
           <div>
             <h3 className="font-bold text-slate-900">
-              Lead Frontend Engineer — Natsoft Corporation (Guardian Life)
+              Lead Frontend Engineer — Natsoft Corporation
             </h3>
             <p className="text-sm text-slate-500 mb-3">
               New Jersey, USA | Apr 2025 – Present
